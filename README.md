@@ -3,6 +3,10 @@
 A desktop-based **Car Rental System** application built with **C++**, **Qt (Widgets)** for the GUI, and **SQLite** as the backend database. This project allows rental operations by letting users choose a car, input customer information, and generate a rental invoice.
 
 ---
+## 🎥 Demo
+
+![Car Rental System Demo](car.gif)
+
 
 ## 🧭 Application Flow
 
