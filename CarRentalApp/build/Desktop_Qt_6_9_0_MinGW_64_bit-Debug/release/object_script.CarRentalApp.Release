@@ -1,0 +1,14 @@
+release/main.o
+release/carrentalmainwindow.o
+release/databasehandler.o
+release/sqlite3.o
+release/.o
+release/Make.o
+release/sure.o
+release/sqlite3.o
+release/is.o
+release/in.o
+release/your.o
+release/project.o
+release/directory.o
+release/moc_carrentalmainwindow.o
