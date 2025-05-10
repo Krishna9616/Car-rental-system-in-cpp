@@ -1,14 +1,55 @@
-# Car Rental System
+# 🚗 Car Rental System
 
-This is a simple car rental system written in C++. The program allows customers to choose from different car models, input rental details, calculate rental fees, and generate an invoice with the necessary details.
+A desktop-based **Car Rental System** application built with **C++**, **Qt (Widgets)** for the GUI, and **SQLite** as the backend database. This project allows rental operations by letting users choose a car, input customer information, and generate a rental invoice.
 
-## Features
-- Allows users to select a car model (Toyota, Hyundai, Ford).
-- Takes customer details such as name, car number, and number of rental days.
-- Calculates the rental fee based on the car model and rental duration.
-- Generates a formatted invoice that includes rental details, payment amounts, and other necessary information.
-- The system displays messages to welcome users and guide them through the process.
-- External text files (`Toyota.txt`, `Hyundai.txt`, `Ford.txt`, etc.) are used to display car details and other relevant information.
+---
 
-## Prerequisites
-DevC++
+## 🧭 Application Flow
+
+1. Display a list of available cars.
+2. Prompt the user to enter:
+   - Customer Name
+   - Mobile Number
+3. Ask the user to select a Car ID from the list.
+4. Input the number of days to rent the car.
+5. Automatically generate an invoice with calculated cost.
+6. Store the transaction details (customer + rental info) in the SQLite database.
+
+---
+
+## ✨ Features
+
+- View all available cars
+- Customer information entry
+- Rent car with dynamic charge calculation
+- Generate rental invoice (basic summary view)
+- Save all data (car, customer, rental info) in SQLite database
+- Intuitive Qt GUI
+
+---
+
+## 🛠️ Tech Stack
+
+| Component  | Technology Used         |
+|------------|-------------------------|
+| Language   | C++                     |
+| GUI        | Qt (Qt Widgets)         |
+| Database   | SQLite                  |
+| Build Tool | qmake / Qt Creator      |
+
+---
+
+## 🧑‍💻 How to Run
+
+### Prerequisites
+
+- C++ compiler (e.g., g++, MSVC)
+- Qt 5/6 installed (Qt Creator recommended)
+- SQLite3 (generally bundled with Qt)
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/car-rental-system.git
+   cd car-rental-system
